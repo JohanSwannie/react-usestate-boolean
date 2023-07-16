@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function DisplayText({ text, maxLength }) {
+const DisplayText = ({ text, maxLength }) => {
   const [textHidden, setTextHidden] = useState(true);
 
   if (text.length <= maxLength) {
@@ -20,9 +20,9 @@ function DisplayText({ text, maxLength }) {
       </span>
     </div>
   );
-}
+};
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <DisplayText
@@ -31,6 +31,6 @@ function App() {
       />
     </div>
   );
-}
+};
 
 export default App;
