@@ -11,6 +11,11 @@ body {
     sans-serif;
 }
 
+.App {
+  display: flex;
+  justify-content: center;
+}
+
 span {
   color: #FFF;
   background-color: black;
