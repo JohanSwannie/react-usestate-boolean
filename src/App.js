@@ -38,7 +38,7 @@ const App = () => {
         maxLength={75}
       />
       <br />
-      <DisplayText2 text2={`The Pukeka is swimming the the Lake`} />
+      <DisplayText2 text2={`The Pukeko is swimming the the Lake`} />
     </div>
   );
 };
