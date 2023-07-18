@@ -9,7 +9,7 @@ const DisplayText = ({ text, maxLength }) => {
   return (
     <div>
       <span>
-        {textHidden ? `${text.substr(0, maxLength).trim()}.......` : text}
+        {textHidden ? `${text.substr(9, maxLength).trim()}.......` : text}
         <br />
         <br />
         {textHidden ? (
